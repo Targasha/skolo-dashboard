@@ -1,0 +1,121 @@
+{
+    "login": {
+        "toolbar": {
+            "title": "Вход"
+        }
+    },
+
+    "days": {
+        "monday": "Понеделник",
+        "tuesday": "Вторник",
+        "wednesday": "Сряда",
+        "thursday": "Четвъртък",
+        "friday": "Петък",
+        "saturday": "Събота",
+        "sunday": "Неделя"
+    },
+
+    "shortKeys": {
+        "hour": "ч.",
+        "minute": "мин.",
+        "second": "сек."
+    },
+
+    "yes": "Да",
+    "no": "Не",
+
+    "true": "Да",
+    "false": "Не",
+
+    "nav": {
+        "dashboard": "Табло",
+        "links": "Връзки"
+    },
+
+    "success": {
+        "create": "Записът успешно е създаден!",
+        "update": "Записът успешно е актуализиран!",
+        "delete": "Записът успешно е изтрит!"
+    },
+
+    "invalid-form": "Формата е невалидна!",
+
+    "btn": {
+        "save": "Запази",
+        "ok": "OK",
+        "create": "Създай",
+        "update": "Актуализация",
+        "delete": "Изтрий",
+        "cancel": "Отказ",
+        "add-new": "Добави Нов"
+    },
+
+    "rules": {
+        "required": "Това поле е задължително",
+        "max": "Това поле трябва да е по-малко от {max} знака",
+        "min": "Това поле трябва да е по-голямо от {min} знака",
+        "email": "Имейлът трябва да е валиден",
+        "match": "Не съвпада с полето {field}!",
+        "url": "Невалиден URL!",
+        "image": "Размера на файла трябва да е по-малко от 2MB!"
+    },
+
+    "delete-dialog": {
+        "title": "Изтриване",
+        "body": "Наистина ли искате да изтриете този елемент?"
+    },
+
+    "input-search": "Търсене",
+
+    "links": {
+        "fields": {
+            "title": "Заглавие",
+            "url": "Връзка",
+            "colour_id": "Цвят"
+        },
+        "list-page": {
+            "title": "Управление на връзки",
+            "sub-title": "създаване, редактиране, изтриване и т.н.",
+            "data-table-title": "Tаблица с данни на връзки",
+            "input-search": "Търсене",
+            "data-table-headers": [
+                {
+                    "text": "Заглавие",
+                    "value": "title"
+                },
+                {
+                    "text": "URL",
+                    "value": "url"
+                },
+                {
+                    "text": "Цвят",
+                    "value": "colour"
+                },
+                {
+                    "text": "Създаден на",
+                    "value": "created_at",
+                    "sortable": false
+                },
+                {
+                    "text": "Редактиран на",
+                    "value": "updated_at",
+                    "sortable": false
+                },
+                {
+                    "text": "Actions",
+                    "value": "actions",
+                    "sortable": false
+                }
+            ]
+        },
+        "create-page": {
+            "title": "Създаване на Връзка"
+        },
+        "edit-page": {
+            "title": "Редактиарне на Връзка",
+            "tabs": {
+                "general": "Настройки"
+            }
+        }
+    }
+}
