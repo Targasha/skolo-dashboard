@@ -37,8 +37,8 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// axios.defaults.baseURL = 'https://salons-api-gateway-bg.herokuapp.com';
-axios.defaults.baseURL = 'http://skolo-dashboard.test/api';
+axios.defaults.baseURL = 'https://skolo-dashboard.herokuapp.com/api';
+// axios.defaults.baseURL = 'http://skolo-dashboard.test/api';
 
 // Assign global auth header to axios
 let authToken = authHeader();

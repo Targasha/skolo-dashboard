@@ -3555,9 +3555,9 @@ files.keys().map(function (key) {
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-// axios.defaults.baseURL = 'https://salons-api-gateway-bg.herokuapp.com';
 
-axios.defaults.baseURL = 'http://skolo-dashboard.test/api'; // Assign global auth header to axios
+axios.defaults.baseURL = 'https://skolo-dashboard.herokuapp.com/api'; // axios.defaults.baseURL = 'http://skolo-dashboard.test/api';
+// Assign global auth header to axios
 
 var authToken = (0,_helpers_auth_header__WEBPACK_IMPORTED_MODULE_5__.default)();
 
