@@ -28,7 +28,6 @@
               <v-text-field
                 v-model="link.url"
                 :rules="rules.url"
-                :counter="30"
                 :label="$t('links.fields.url')"
               ></v-text-field>
             </v-col>
